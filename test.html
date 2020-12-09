@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <title>E-mail form Test</title>
+  </head>
+  <body>
+    <div id="contactform">
+      <!-- modify this form HTML and place wherever you want your form -->
+
+      <form action="https://formspree.io/f/mzbkjevd" method="POST">
+        <label>
+          <b id="redstar">*</b>Your full name:
+          <input type="text" required id="cont" name="name" size="80" />
+        </label>
+        <label>
+          <b id="redstar">*</b>Your email:
+          <input type="text" required id="cont" name="_replyto" />
+        </label>
+        <label>
+          <b id="redstar">*</b>Address:
+          <input type="text" required id="cont" name="address" />
+        </label>
+        <label>
+          <b id="redstar">*</b>City:
+          <input type="text" list="city" required id="cont" name="city" />
+          <datalist id="city">
+            <option value="Toronto"></option>
+            <option value="Montréal"> </option>
+            <option value="Vancouver"> </option>
+            <option value="Ottawa"> </option>
+            <option value="Calgary"> </option>
+            <option value="Edmonton"> </option>
+            <option value="Québec City"> </option>
+            <option value="Winnipeg"> </option>
+            <option value="Hamilton"> </option>
+            <option value="Kitchener"></option>
+          </datalist>
+        </label>
+        <label>
+          <b id="redstar">*</b>Postal Code:
+          <input type="text" required id="cont" name="postalcode" maxlength="7" />
+        </label>
+        <div>
+          <input
+            type="radio"
+            onclick="javascript:yesnoCheck();"
+            id="noCheck"
+            name="q1"
+            value="q"
+            checked
+          />
+          <label for="question">Question</label><br />
+
+          <input
+            type="radio"
+            onclick="javascript:yesnoCheck();"
+            id="noCheck"
+            name="q1"
+            value="usercomm"
+          />
+          <label for="comment">Comment</label><br />
+
+          <input
+            type="radio"
+            onclick="javascript:yesnoCheck();"
+            id="yesCheck"
+            name="q1"
+            value="choice3"
+          />
+          <label for="orderprob">Order problem</label><br /><br />
+        </div>
+
+        <div id="ifYes">
+          <label><b id="redstar">*</b>Order number</label>
+          <input type="text" id="cont" name="orderrep" />
+
+          <br />
+          <br />
+        </div>
+
+        <label>
+          <b id="redstar">*</b>Your message:
+          <textarea
+            name="message"
+            required
+            id="cont"
+            maxlength="1000"
+            rows="10"
+            cols="250"
+          ></textarea>
+        </label>
+        <input type="hidden" id="myname" name="MyNameIs" value="Oleksandr Zhatukhin" />
+        <!-- your other form fields go here -->
+
+        <button type="submit" class="subbutton">Send</button>
+        <br />
+        <br />
+
+        <b id="redstar">*</b>Mandatory fields
+      </form>
+    </div>
+
+    <script type="text/javascript">
+      window.onload = function() {
+        document.getElementById('ifYes').style.display = 'none';
+      };
+
+      function yesnoCheck() {
+        if (document.getElementById('yesCheck').checked) {
+          document.getElementById('ifYes').style.display = 'block';
+        } else document.getElementById('ifYes').style.display = 'none';
+      }
+    </script>
+  </body>
+</html>

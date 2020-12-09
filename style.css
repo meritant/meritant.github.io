@@ -1,0 +1,324 @@
+/* Add any CSS you need to this file. */
+
+.material-icons.md-light {
+  color: rgba(255, 255, 255, 1);
+}
+.material-icons.md-light.md-inactive {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.material-icons.md-18 {
+  font-size: 18px;
+}
+.material-icons.md-24 {
+  font-size: 24px;
+}
+.material-icons.md-36 {
+  font-size: 36px;
+}
+.material-icons.md-48 {
+  font-size: 48px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+body {
+  color: dimgray;
+  /* Use a more blocky, sans serif font */
+  font-family: Roboto, sans-serif;
+  /* Get rid of the margin around the body */
+  margin: 0;
+}
+header {
+  display: flex;
+  background-color: rgb(44, 42, 42);
+  height: 45px;
+  justify-content: space-between;
+}
+#social {
+  color: white;
+  background-color: black;
+  padding: 10px;
+}
+.material-icons:hover {
+  color: orange;
+}
+#menu {
+  margin-left: 10px;
+
+  color: white;
+}
+#contact {
+  color: white;
+  padding-right: 25px;
+  padding-top: 13px;
+  padding-left: 15px;
+}
+.contactus {
+  color: white;
+}
+#qm {
+  align-content: center;
+  width: 300px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+#void {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.amenu {
+  color: white;
+}
+#login {
+  margin-right: 15px;
+  padding-top: 5px;
+}
+#sign {
+  color: orange;
+  border: 1 solid orange;
+  background-color: white;
+  padding: 4px 8px;
+  font-weight: bold;
+}
+#sign i {
+  vertical-align: middle;
+}
+#body {
+  display: inline-block;
+  align-content: center;
+}
+#content {
+  width: 300px;
+  height: 500px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 20px;
+}
+#thumb {
+  max-width: 100%;
+  height: auto;
+}
+#label {
+  width: 290px;
+  height: 40px;
+  color: black;
+  background-color: rgb(211, 211, 211);
+  padding-top: 1px;
+  padding-bottom: 25px;
+  padding-left: 10px;
+}
+a.titlelink:hover {
+  text-decoration: unset;
+  color: rgb(228, 138, 20);
+}
+a.titlelink {
+  color: black;
+}
+.prod {
+  width: 300px;
+  background-color: #e48508;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 3px;
+  margin-top: 20px;
+  border: 1px solid orange;
+}
+.prod:hover {
+  background-color: #ffffff;
+  color: rgb(238, 144, 20);
+  border: 1px solid orange;
+  cursor: pointer;
+}
+#choice {
+  border: 1 solid black;
+}
+#priceblock {
+  display: block;
+
+  width: 300px;
+  justify-content: space-around;
+}
+#pricetag {
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  float: right;
+  padding-right: 8px;
+}
+
+#radiov {
+  margin-top: 10px;
+}
+#header {
+  max-width: 100%;
+  height: auto;
+}
+#searchblock {
+  text-align: center;
+
+  height: 50px;
+}
+
+#logo {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 26px;
+  font-style: italic;
+  color: black;
+}
+#sear {
+  float: right;
+  align-content: center;
+  width: 30%;
+  padding: 12px 20px;
+  margin-right: 20px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding-right: 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-image: url('images/search.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}
+#message {
+  margin: 30px 130px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 24px;
+  font-style: oblique;
+}
+#tophr {
+  width: 25%;
+  color: rgb(250, 247, 242);
+}
+#categoryblock {
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+}
+#fieldset {
+  margin: 10px 15px 10px 15px;
+}
+#payment {
+  display: inline;
+  width: 30%;
+}
+#payblock {
+  margin-left: 20px;
+}
+#lowlevel {
+  display: flex;
+  background-color: rgb(44, 42, 42);
+  height: 45px;
+  justify-content: space-between;
+  margin: 0;
+  padding: 25px 30px;
+  color: white;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 24px;
+  font-style: oblique;
+}
+.footerlinks {
+  color: white;
+}
+
+.copy {
+  color: black;
+  background-color: orange;
+  text-align: center;
+  font-size: 12px;
+  margin: 0px;
+  padding: 2px 2px;
+}
+#sub {
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  color: orange;
+}
+#subfield {
+  position: absolute;
+  font-weight: bold;
+  right: 12px;
+  width: 300px;
+  color: black;
+  font-style: italic;
+  font-size: 14px;
+}
+.subbutton {
+  color: white;
+  background-color: orange;
+  width: 100px;
+  height: 30px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.subbutton:hover {
+  color: orange;
+  background-color: white;
+  transition-duration: 0.4s;
+}
+#mailform {
+  width: 150px;
+  height: 24px;
+}
+#subblock {
+  background-color: khaki;
+  vertical-align: middle;
+}
+#contactform {
+  align-content: center;
+  padding-left: 30%;
+  width: 130%;
+  margin: auto;
+}
+#cont {
+  align-content: center;
+  width: 30%;
+  padding: 12px 2px;
+  margin-right: 20px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding-right: 10px;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#redstar {
+  color: red;
+}
