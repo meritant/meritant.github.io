@@ -1,0 +1,20 @@
+<section id="about" class="py-16 bg-white">
+    <div class="max-w-5xl mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-8 text-center">About Me</h2>
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+            <div>
+                {{ range .Site.Params.about.paragraphs }}
+                    <p class="text-gray-600 mb-4">{{ . }}</p>
+                {{ end }}
+            </div>
+            <div class="relative">
+                <div class="aspect-w-16 aspect-h-12">
+                    <img src="{{ .Site.Params.about.image }}" 
+                         alt="About Me" 
+                         class="rounded-lg shadow-lg object-cover"
+                         onerror="this.src='/images/placeholder.jpeg'">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,11 @@
+- category: "Frontend"
+  items: ["HTML5", "CSS3", "JavaScript", "React"]
+
+- category: "Backend"
+  items: ["Node.js", "Express", "Python"]
+
+- category: "Database"
+  items: ["MongoDB", "PostgreSQL"]
+
+- category: "Tools"
+  items: ["Git", "VS Code", "Docker"]

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    {{ partial "head.html" . }}
+</head>
+<body class="bg-gray-50">
+    
+    {{ partial "header.html" . }}
+    
+    <main>
+        {{ block "main" . }}{{ end }}
+    </main>
+
+    {{ partial "footer.html" . }}
+
+    <!-- JS for mobile menu and others -->
+
+    {{ $js := resources.Get "js/main.js" | js.Build }}
+    {{ if hugo.IsProduction }}
+        {{ $js = $js | minify | fingerprint }}
+    {{ end }}
+    <script src="{{ $js.RelPermalink }}"></script>
+</body>
+</html>

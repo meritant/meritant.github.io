@@ -1,0 +1,30 @@
+projects:
+  - title: "E-commerce Dashboard"
+    description: "A responsive dashboard built with React and TailwindCSS"
+    technologies: ["React", "Tailwind", "Node.js"]
+    image: "/images/projects/ecommerce.jpg"
+    demo_url: "https://demo1.example.com"
+    github_url: "https://github.com/yourusername/project1"
+    
+  - title: "Weather App"
+    description: "Real-time weather application using OpenWeather API"
+    technologies: ["JavaScript", "API", "CSS"]
+    image: "/images/projects/weather.jpg"
+    demo_url: "https://demo2.example.com"
+    github_url: "https://github.com/yourusername/project2"
+    
+  - title: "Task Manager"
+    description: "A full-stack task management application"
+    technologies: ["Node.js", "MongoDB", "Express"]
+    image: "/images/projects/task-manager.jpg"
+    demo_url: "https://demo3.example.com"
+    github_url: "https://github.com/yourusername/project3"
+
+  - title: "Task Manager"
+    description: "A full-stack task management application"
+    technologies: ["Node.js", "MongoDB", "Express"]
+    image: "/images/projects/task-manager.jpg"
+    demo_url: "https://demo3.example.com"
+    github_url: "https://github.com/yourusername/project3"
+
+    

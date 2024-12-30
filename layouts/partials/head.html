@@ -1,0 +1,13 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ .Site.Title }}</title>
+<meta name="description" content="{{ .Site.Params.description }}">
+
+{{ $css := resources.Get "css/main.css" }}
+{{ $css = $css | css.PostCSS }}
+
+{{ if hugo.IsProduction }}
+  {{ $css = $css | minify | fingerprint | resources.PostProcess }}
+{{ end }}
+
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">

@@ -1,0 +1,16 @@
+jobs:
+  - title: "Junior Web Developer"
+    company: "TechStart Inc."
+    period: "2023 - Present"
+    responsibilities:
+      - "Developed and maintained client websites using React and Node.js"
+      - "Collaborated with design team to implement responsive UI components"
+      - "Optimized application performance resulting in 30% faster load times"
+
+  - title: "Web Development Intern"
+    company: "Digital Solutions Ltd"
+    period: "2022 - 2023"
+    responsibilities:
+      - "Assisted in the development of responsive websites"
+      - "Implemented UI improvements and bug fixes"
+      - "Participated in code reviews and team meetings"
