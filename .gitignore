@@ -6,7 +6,12 @@ node_modules/
 
 # Generated files
 /resources/_gen/
-/assets/css/style.css
+/assets/jsconfig.json
+hugo_stats.json
+.hugo_build.lock
+
+# Keep images
+!/static/images/
 
 # OS generated files
 .DS_Store
