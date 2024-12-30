@@ -55,7 +55,7 @@ jobs:
       # Install dependencies
       - name: Install npm dependencies
         run: |
-          npm install --no-optional postcss autoprefixer  # Install PostCSS and Autoprefixer (optional)
+          npm install --omit=optional postcss autoprefixer  # Install PostCSS and Autoprefixer (optional)
 
       - name: Build with Hugo
         env:
