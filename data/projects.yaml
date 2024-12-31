@@ -6,12 +6,12 @@ projects:
     demo_url: "https://demo1.example.com"
     github_url: "https://github.com/yourusername/project1"
     
-  - title: "Weather App"
-    description: "Real-time weather application using OpenWeather API"
-    technologies: ["JavaScript", "API", "CSS"]
-    image: "/images/projects/weather.jpg"
+  - title: "Crypto Picker"
+    description: "Real-time crypto price application using Java, Spring Boot, CoinGecko Demo API"
+    technologies: ["Java", "Spring Boot", "JavaScript", "API", "CSS", "PostgreSQL"]
+    image: "/images/cr.png"
     demo_url: "https://demo2.example.com"
-    github_url: "https://github.com/yourusername/project2"
+    github_url: "https://github.com/meritant/Crypto_picker"
     
   - title: "Task Manager"
     description: "A full-stack task management application"
