@@ -10,7 +10,7 @@ projects:
     description: "Real-time crypto price application using Java, Spring Boot, CoinGecko Demo API"
     technologies: ["Java", "Spring Boot", "JavaScript", "API", "CSS", "PostgreSQL"]
     image: "/images/cr.png"
-    demo_url: "https://demo2.example.com"
+    demo_url: "https://crypto.aclaney.com"
     github_url: "https://github.com/meritant/Crypto_picker"
     
   - title: "Task Manager"
