@@ -20,11 +20,11 @@ projects:
     demo_url: "https://demo3.example.com"
     github_url: "https://github.com/yourusername/project3"
 
-  - title: "Task Manager"
-    description: "A full-stack task management application"
+  - title: "WisWeb"
+    description: "A secure web-chat that is active only for 10 minutes and can be shared only by one-time use link"
     technologies: ["Node.js", "MongoDB", "Express"]
     image: "/images/projects/task-manager.jpg"
-    demo_url: "https://demo3.example.com"
+    demo_url: "https://github.com/meritant/wisweb"
     github_url: "https://github.com/yourusername/project3"
 
     
