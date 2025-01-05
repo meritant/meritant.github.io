@@ -1,10 +1,10 @@
 projects:
   - title: "E-commerce Dashboard"
-    description: "A responsive dashboard built with React and TailwindCSS"
+    description: "A defect reporting web app system for commercial operators"
     technologies: ["React", "Tailwind", "Node.js"]
     image: "/images/projects/ecommerce.jpg"
-    demo_url: "https://demo1.example.com"
-    github_url: "https://github.com/yourusername/project1"
+    demo_url: "https://schedule.aclaney.com"
+    github_url: "https://github.com/meritant/green_schedule"
     
   - title: "Crypto Picker"
     description: "Real-time crypto price application using Java, Spring Boot, CoinGecko Demo API"
