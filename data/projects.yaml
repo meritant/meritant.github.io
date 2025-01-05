@@ -1,5 +1,5 @@
 projects:
-  - title: "E-commerce Dashboard"
+  - title: "Green Schedule"
     description: "A defect reporting web app system for commercial operators"
     technologies: ["React", "Tailwind", "Node.js"]
     image: "/images/projects/ecommerce.jpg"
