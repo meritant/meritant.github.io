@@ -1,13 +1,15 @@
 <section id="about" class="py-16 bg-white">
     <div class="max-w-5xl mx-auto px-4">
-        <h2 class="text-3xl font-bold mb-8 text-center">About Me</h2>
+        <div class="text-center">
+            <h2 class="about-heading text-3xl font-bold mb-8">About Me</h2>
+        </div>
         <div class="grid md:grid-cols-2 gap-8 items-center">
             <div>
                 {{ range .Site.Params.about.paragraphs }}
-                    <p class="text-gray-600 mb-4">{{ . }}</p>
+                    <p class="about-text text-gray-600 mb-6">{{ . }}</p>
                 {{ end }}
             </div>
-            <div class="relative">
+            <div class="display-none md:block"> <!-- Try this combination -->
                 <div class="aspect-w-16 aspect-h-12">
                     <img src="{{ .Site.Params.about.image }}" 
                          alt="About Me" 
@@ -18,3 +20,34 @@
         </div>
     </div>
 </section>
+
+<style>
+@media (max-width: 768px) {
+    .display-none {
+        display: none;
+    }
+}
+
+.about-heading {
+    position: relative;
+    display: inline-block;
+}
+
+.about-heading::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(to right, #3b82f6, #9333ea);
+    border-radius: 2px;
+}
+
+.about-text {
+    font-size: 1.25rem;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+}
+</style>
