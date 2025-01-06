@@ -1,20 +1,20 @@
 projects:
   - title: "Green Schedule"
-    description: "A defect reporting web app system for commercial operators"
+    description: "A web-based defect reporting system that enables commercial vehicle drivers to quickly submit detailed breakdown reports to dispatch"
     technologies: ["React", "Tailwind", "Node.js"]
-    image: "/images/projects/ecommerce.jpg"
+    image: "/images/projects/schedule.jpeg"
     demo_url: "https://schedule.aclaney.com"
     github_url: "https://github.com/meritant/green_schedule"
     
   - title: "Crypto Picker"
     description: "Real-time crypto price application using Java, Spring Boot, CoinGecko Demo API"
     technologies: ["Java", "Spring Boot", "JavaScript", "API", "CSS", "PostgreSQL"]
-    image: "/images/cr.png"
+    image: "/images/crypto.png"
     demo_url: "https://crypto.aclaney.com"
     github_url: "https://github.com/meritant/Crypto_picker"
     
-  - title: "Task Manager"
-    description: "A full-stack task management application"
+  - title: "PDF Commander"
+    description: "Comming Soon"
     technologies: ["Node.js", "MongoDB", "Express"]
     image: "/images/projects/task-manager.jpg"
     demo_url: "https://demo3.example.com"
@@ -22,8 +22,8 @@ projects:
 
   - title: "WisWeb"
     description: "A secure web-chat that is active only for 10 minutes and can be shared only by one-time use link"
-    technologies: ["Node.js", "MongoDB", "Express"]
-    image: "/images/projects/task-manager.jpg"
+    technologies: ["Java", "Spring Boot", "Spring WebSocket", "Spring Security"]
+    image: "/images/projects/wis.jpg"
     demo_url: "https://chat.aclaney.com"
     github_url: "https://github.com/meritant/wisweb"
 
