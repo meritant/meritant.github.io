@@ -2,14 +2,14 @@ projects:
   - title: "Green Schedule"
     description: "A web-based defect reporting system that enables commercial vehicle drivers to quickly submit detailed breakdown reports to dispatch"
     technologies: ["React", "Tailwind", "Node.js"]
-    image: "/images/projects/schedule.jpeg"
+    image: "/images/schedule.jpeg"
     demo_url: "https://schedule.aclaney.com"
     github_url: "https://github.com/meritant/green_schedule"
     
   - title: "Crypto Picker"
     description: "Real-time crypto price application using Java, Spring Boot, CoinGecko Demo API"
     technologies: ["Java", "Spring Boot", "JavaScript", "API", "CSS", "PostgreSQL"]
-    image: "/images/crypto.png"
+    image: "/images/crypto.jpeg"
     demo_url: "https://crypto.aclaney.com"
     github_url: "https://github.com/meritant/Crypto_picker"
     
@@ -23,7 +23,7 @@ projects:
   - title: "WisWeb"
     description: "A secure web-chat that is active only for 10 minutes and can be shared only by one-time use link"
     technologies: ["Java", "Spring Boot", "Spring WebSocket", "Spring Security"]
-    image: "/images/projects/wis.jpg"
+    image: "/images/wis.jpeg"
     demo_url: "https://chat.aclaney.com"
     github_url: "https://github.com/meritant/wisweb"
 
