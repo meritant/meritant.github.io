@@ -9,7 +9,7 @@ disableKinds = ["taxonomy", "term", "section", "page"]
   description = "Java Software Developer"
   resume_url = "/resume.pdf"  # PDF resume file path
   github = "https://github.com/meritant"
-  linkedin = "www.linkedin.com/in/aleks-claney"
+  linkedin = "https://linkedin.com/in/aleks-claney"
   email = "aleksclaney@gmail.com"
 
   [params.header]
