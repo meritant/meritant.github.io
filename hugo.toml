@@ -12,6 +12,9 @@ disableKinds = ["taxonomy", "term", "section", "page"]
   linkedin = "www.linkedin.com/in/aleks-claney"
   email = "aleksclaney@gmail.com"
 
+  [params.header]
+    image = "/images/logo.png"
+
   [params.hero]
     title = "Aleksander Claney"
     subtitle = "Software Developer"

@@ -1,14 +1,23 @@
 <nav class="bg-white border-b border-gray-200 fixed w-full z-50">
     <div class="max-w-5xl mx-auto px-4">
         <div class="flex justify-between items-center h-16">
-            <a href="#" class="text-xl font-bold text-gray-800">{{ .Site.Params.author }}</a>
+            <a href="#" class="text-xl font-bold text-gray-800">
+                <img src="{{ .Site.Params.header.image }}" alt="Header Image"
+                style="height: 45px; width: auto;"                >
+            </a>
             
-            <!-- Desktop menu -->
-            <div class="hidden md:flex space-x-8">
-                {{ range .Site.Menus.main }}
-                    <a href="{{ .URL }}" class="text-gray-600 hover:text-gray-800">{{ .Name }}</a>
-                {{ end }}
-            </div>
+           <!-- Desktop menu -->
+<nav class="hidden md:block">
+    <ul class="flex space-x-6">
+        {{ range .Site.Menus.main }}
+        <li>
+            <a href="{{ .URL }}" class="text-xl text-gray-600 hover:text-violet-600 font-medium">
+                {{ .Name }}
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+</nav>
             
             <!-- Mobile menu button -->
             <button class="md:hidden text-gray-600 hover:text-gray-800" id="mobile-menu-button" aria-label="Menu">
