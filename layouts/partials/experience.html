@@ -5,7 +5,8 @@
             {{ range .Site.Data.experience.jobs }}
             <div class="border-l-4 border-blue-500 pl-4">
                 <h2 class="font-bold text-xl">{{ .title }}</h2>
-                <p class="text-gray-600">{{ .company }} • {{ .period }}</p>
+                <p class="text-gray-600">{{ .company }}</p>
+                <p class="text-gray-600">{{ .period }}</p>
                 <ul class="mt-2 space-y-2">
                     {{ range .responsibilities }}
                         <li class="text-gray-700">{{ . }}</li>

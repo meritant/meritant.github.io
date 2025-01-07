@@ -3,11 +3,11 @@ jobs:
     company: "Personal Projects"
     period: "May 2023 - Present"
     responsibilities:
-      - "Engineered and deployed a microservices-based e-commerce application using Spring Boot and Java, implementing RESTful APIs"
+      - "Engineered and deployed a microservices-based application using Spring Boot and Java, implementing RESTful APIs"
       - "Developed a monolithic web application using JavaScript and Spring Framework, incorporating responsive design principles, secure user authentication, demonstrating ability to work with different architectural patterns"
       - "Integrated third-party APIs and services, showcasing ability to read technical documentation and implement external solutions effectively"
       - "Implemented Git version control"
-      - "Documented technical specifications and API endpoints using Swagger, demonstrating attention to detail and ability to create clear technical documentation"
+      - "Documented technical specifications and API endpoints, demonstrating attention to detail and ability to create clear technical documentation"
 
   - title: "Professional Driver"
     company: "Transportation Companies"
