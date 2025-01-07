@@ -13,12 +13,12 @@ projects:
     demo_url: "https://crypto.aclaney.com"
     github_url: "https://github.com/meritant/Crypto_picker"
     
-  - title: "PDF Commander"
-    description: "Comming Soon"
-    technologies: ["Node.js", "MongoDB", "Express"]
-    image: "/images/projects/task-manager.jpg"
-    demo_url: "https://demo3.example.com"
-    github_url: "https://github.com/yourusername/project3"
+  # - title: "PDF Commander"
+  #   description: "Comming Soon"
+  #   technologies: ["Node.js", "MongoDB", "Express"]
+  #   image: "/images/projects/task-manager.jpg"
+  #   demo_url: "https://demo3.example.com"
+  #   github_url: "https://github.com/yourusername/project3"
 
   - title: "WisWeb"
     description: "A secure web-chat that is active only for 10 minutes and can be shared only by one-time use link"
