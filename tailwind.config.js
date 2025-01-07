@@ -11,5 +11,14 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addBase }) {
+      addBase({
+        'ul': { 
+          listStyleType: 'disc',  // Default bullet style
+          paddingLeft: '1.25rem', // Padding to align the bullets
+        },
+      });
+    },
+  ],
 }
